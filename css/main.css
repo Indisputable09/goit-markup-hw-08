@@ -3,6 +3,7 @@ body {
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 0;
+  min-width: 480px;
 }
 
 .list {
@@ -410,7 +411,7 @@ button {
   background-color: #f5f4fa;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 480px;
+  width: 100%;
 }
 
 .team__title {
@@ -512,7 +513,7 @@ button {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #ffffff;
-  width: 480px;
+  width: 100%;
 }
 
 .clients__title {
@@ -574,7 +575,7 @@ button {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 480px;
+  width: 100%;
 }
 
 .footer__container {
