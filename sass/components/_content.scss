@@ -90,6 +90,7 @@ padding-bottom: 60px;
 //   //   }
 // }
 .details-list__item {
+  width: 450px;
   margin-bottom: 30px;
     &:last-child {
       margin-bottom: 0;
@@ -191,6 +192,7 @@ letter-spacing: 0.03em;
   background-color: $secondary-bgcolor;
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 480px;
 
   // ------Laptop and Dessktop
   // padding-top: 94px;
@@ -298,6 +300,7 @@ margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
   background-color: #ffffff;
+  width: 480px;
 }
 .clients__title {
   @extend %mobile-section__title;
