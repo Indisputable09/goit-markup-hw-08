@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  // display: flex; ---------Laptop and Desktop
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  text-align: start;
+}
+p {
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  max-width: 480px;
+
+  
+  // width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+h2, h3 {
+  color: $text-color;
+}
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+}
+%mobile-section__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.19;
+
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
+}
+// -----------It changees autofill color and bg-color
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//   transition: background-color 5000s ease-in-out 0s;
+//   box-shadow: 0 0 0px 1000px inherit inset;
+//   -webkit-text-fill-color: #000000;
+
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 1.25;
+// }
