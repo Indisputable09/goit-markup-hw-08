@@ -84,11 +84,10 @@ button {
 }
 
 .header {
+  position: relative;
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
   margin: 0 auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
   width: 480px;
 }
 
@@ -99,27 +98,26 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 60px;
 }
 
-.header-menu {
-  width: 40px;
-  height: 40px;
+.header-menu__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 0 0 auto;
-  padding: 0;
-  border: none;
-  background-color: #ffffff;
-}
-
-.header-menu__icon {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.header-menu__icon {
   width: 40px;
   height: 40px;
   fill: #000000;
@@ -129,6 +127,31 @@ button {
 
 .header-menu__icon:hover, .header-menu__icon:focus {
   fill: #2197f3;
+}
+
+.header-menu__icon-close {
+  display: none;
+}
+
+.header-menu__button.is-open .header-menu__icon-close {
+  display: block;
+}
+
+.header-menu__button.is-open .header-menu__icon-menu {
+  display: none;
+}
+
+.header-menu__itself {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 796px;
+  background-color: tomato;
+}
+
+.header-menu__itself.is-open {
+  display: none;
 }
 
 .header-list {
@@ -219,8 +242,8 @@ button {
 .footer__logo, .header__logo {
   font-family: "Raleway", cursive;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.16;
   text-decoration: none;
   color: #ffffff;
   display: inline-block;
@@ -1293,5 +1316,15 @@ button {
 .modal-window__submit--click:active {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+}
+
+.menu-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: tomato;
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
