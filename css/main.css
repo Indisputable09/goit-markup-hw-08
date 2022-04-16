@@ -31,7 +31,6 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -553,6 +552,7 @@ button {
 .footer-list {
   padding: 0;
   margin: 0;
+  margin-bottom: 60px;
 }
 
 .footer-list__item:first-child {
@@ -713,20 +713,16 @@ button {
 }
 
 .portfolio {
-  padding-top: 100px;
-  padding-bottom: 94px;
-}
-
-.portfolio-buttons-list__center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .portfolio-buttons-list__portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 50px;
   margin-top: 0;
 }
@@ -734,7 +730,7 @@ button {
 .portfolio-buttons-list__item {
   margin-right: 8px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .portfolio-buttons-list__item--nospace {
@@ -769,17 +765,7 @@ button {
           transform: scale(0.95);
 }
 
-.portfolio-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .portfolio-cards__element {
-  width: calc((100% - 60px) / 3);
-  margin-right: 30px;
   margin-bottom: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -815,8 +801,8 @@ button {
   left: 50%;
   -webkit-transform: translate(-50%, calc(-50% + 295px));
           transform: translate(-50%, calc(-50% + 295px));
-  width: 370px;
-  height: 294px;
+  width: 100%;
+  height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transition: -webkit-transform 250ms;
   transition: -webkit-transform 250ms;
@@ -1206,6 +1192,7 @@ button {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  min-width: 346px;
   color: #757575;
 }
 
@@ -1301,6 +1288,7 @@ button {
   left: 0;
   top: 0;
   width: 100%;
+  height: 100vh;
   background-color: #ffffff;
   z-index: 2;
 }
