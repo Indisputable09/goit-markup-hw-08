@@ -4,14 +4,19 @@ body {
 
   margin-top: 0;
   margin-bottom: 0;
-  min-width: 480px;
+  // min-width: 480px;
+  // @media screen and (min-width: 768px) {
+  //   min-width: 768px;
+  // }
+  
+  // @media screen and (min-width: 1230px) {
+  //   min-width: 1230px;
+  // }
 }
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
-
-  // display: flex; ---------Laptop and Desktop
 
   font-weight: 700;
   font-size: 18px;
@@ -19,6 +24,10 @@ body {
   letter-spacing: 0.06em;
 
   text-align: start;
+
+    @media screen and (min-width: 481px) {
+      display: flex;
+    }
 }
 p {
   font-weight: normal;
@@ -35,13 +44,14 @@ img {
   display: block;
 }
 .container {
-  // max-width: 480px;
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
+  width: 450px;
 
-  
-  // width: 1200px;
+  @media screen and (min-width: 768px) {
+    width: 738px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -80,6 +90,15 @@ button {
   letter-spacing: 0.03em;
   
   color: #212121;
+}
+%laptop-section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 // -----------It changees autofill color and bg-color
 // input:-webkit-autofill,

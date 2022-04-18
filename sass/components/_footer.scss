@@ -2,7 +2,6 @@
     background-color: $footer-bgcolor;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 100%;
 }
 // -----Laptop and Desktop
 .footer__container {
@@ -151,9 +150,9 @@
     letter-spacing: 0.06em;
     border-radius: 4px;
 
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    // display: inline-flex;
+    // justify-content: center;
+    // align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
 
