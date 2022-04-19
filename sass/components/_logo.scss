@@ -21,7 +21,13 @@
 .header__logo {
   @extend .footer__logo;
   color: #000000;
-  margin-right: 93px;
+  margin-right: auto;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 88px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 
   margin-top: 0;
   margin-bottom: 0;

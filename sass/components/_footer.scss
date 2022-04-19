@@ -150,9 +150,9 @@
     letter-spacing: 0.06em;
     border-radius: 4px;
 
-    // display: inline-flex;
-    // justify-content: center;
-    // align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -175,7 +175,6 @@
     margin-left: 10px;
     content: "";
     background-image: url(../images/icon_send.svg);
-
     width: 24px;
     height: 24px;
 }
