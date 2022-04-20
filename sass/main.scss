@@ -1,9 +1,17 @@
 @import "./utilits/variables";
 @import "./base/tags";
+
 @import "./components/header";
 @import "./components/logo";
-@import "./components/content";
+
+@import "./components/hero";
+@import "./components/details";
+@import "./components/skills";
+@import "./components/team";
+@import "./components/clients";
+
 @import "./components/footer";
 @import "./components/portfolio";
+
 @import "./components/modal-window";
 @import "./components/menu-window";
