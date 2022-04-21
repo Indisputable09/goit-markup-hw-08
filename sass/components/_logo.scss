@@ -18,10 +18,16 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
+
 .header__logo {
   @extend .footer__logo;
   color: #000000;
   margin-right: auto;
+  animation: bounce-logo 500ms both 1 ease-in;
+    &:active {
+      animation: bounce-logo 500ms both ease-in;
+    }
+
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-right: 88px;
   }

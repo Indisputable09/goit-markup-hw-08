@@ -33,14 +33,22 @@
 
 .menu__icon-close {
     opacity: 0;
+    transition: opacity linear 1000ms;
 
     .menu__button.is-open & {
         opacity: 1;
     }
 }
 
+.menu__icon-burger {
+    opacity: 1;
+    // transition: opacity linear;
+    // transition: opacity ease-in 1000ms;
+}
+
 .menu__button.is-open .menu__icon-burger {
     opacity: 0;
+    // transition: opacity 1000ms;
 }
 
 .menu__itself {
@@ -59,8 +67,12 @@
     padding-top: 48px;
     padding-bottom: 48px;
 
+    transition: top 1000ms ease;
+
     &.is-open {
-        display: none;
+        top: -100%;
+        transition: top 1000ms ease;
+        animation: bounce-top 0.9s both 2000ms;
     }
 }
 
