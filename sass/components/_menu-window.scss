@@ -33,27 +33,23 @@
 
 .menu__icon-close {
     opacity: 0;
-    transition: opacity linear 250ms;
+    transition: opacity 250ms linear 400ms;
     
 
     .menu__button.is-open & {
         opacity: 1;
-        transition: opacity linear 1000ms;
+        transition: opacity 1000ms linear 250ms;
     }
 }
 
 .menu__icon-burger {
     opacity: 1;
-    transition: opacity linear 1000ms;
-    // transition: opacity linear;
-    // transition: opacity linear 500ms;
+    transition: opacity 1000ms linear 250ms;
 }
 
 .menu__button.is-open .menu__icon-burger {
     opacity: 0;
-    transition: opacity linear 250ms;
-    // transition: opacity linear 500ms;
-    // transition: opacity 1000ms;
+    transition: 250ms opacity linear 400ms;
 }
 
 .menu__itself {
