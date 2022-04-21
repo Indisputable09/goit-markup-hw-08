@@ -449,8 +449,8 @@ button {
 .header__logo {
   color: #000000;
   margin-right: auto;
-  -webkit-animation: bounce-logo 500ms both 1 ease-in;
-          animation: bounce-logo 500ms both 1 ease-in;
+  -webkit-animation: bounce-logo 500ms both ease-in;
+          animation: bounce-logo 500ms both ease-in;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1956,7 +1956,6 @@ body.modal-open {
 }
 
 .menu__button.is-open .menu__icon {
-  position: fixed;
   right: 24px;
 }
 
@@ -1966,20 +1965,26 @@ body.modal-open {
 
 .menu__icon-close {
   opacity: 0;
-  -webkit-transition: opacity linear 1000ms;
-  transition: opacity linear 1000ms;
+  -webkit-transition: opacity linear 250ms;
+  transition: opacity linear 250ms;
 }
 
 .menu__button.is-open .menu__icon-close {
   opacity: 1;
+  -webkit-transition: opacity linear 1000ms;
+  transition: opacity linear 1000ms;
 }
 
 .menu__icon-burger {
   opacity: 1;
+  -webkit-transition: opacity linear 1000ms;
+  transition: opacity linear 1000ms;
 }
 
 .menu__button.is-open .menu__icon-burger {
   opacity: 0;
+  -webkit-transition: opacity linear 250ms;
+  transition: opacity linear 250ms;
 }
 
 .menu__itself {

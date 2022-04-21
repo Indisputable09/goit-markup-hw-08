@@ -23,7 +23,7 @@
   @extend .footer__logo;
   color: #000000;
   margin-right: auto;
-  animation: bounce-logo 500ms both 1 ease-in;
+  animation: bounce-logo 500ms both ease-in;
     &:active {
       animation: bounce-logo 500ms both ease-in;
     }
