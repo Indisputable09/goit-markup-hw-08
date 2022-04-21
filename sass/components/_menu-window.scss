@@ -22,6 +22,7 @@
 
     .menu__button.is-open & {
         position: fixed;
+        right: 24px;
     }
 
     &:hover,
@@ -118,6 +119,10 @@
     }
 }
 
+.menu-list__link--active {
+    color: $hover-color;
+}
+
 .menu-contacts {
     display: block;
     margin-bottom: 64px;
@@ -135,6 +140,7 @@
     &:first-child {
         font-size: 34px;
         line-height: 1.17;
+
     }
 
     &:first-child {
@@ -148,4 +154,7 @@
     &:focus {
         color: $hover-color;
     }
+}
+.menu-contacts__link--color {
+    color: $hover-color;
 }
