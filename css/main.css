@@ -1640,6 +1640,14 @@ body.modal-open {
   padding: 1px 40px 40px 40px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 477px) {
+  .modal-window {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .modal-window__title {
   margin-left: auto;
   margin-right: auto;
@@ -1779,7 +1787,7 @@ body.modal-open {
   resize: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 410px) {
+@media screen and (min-width: 320px) and (max-width: 420px) {
   .modal-window__form-comment {
     height: 90px;
   }
@@ -1864,7 +1872,7 @@ body.modal-open {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 320px) and (max-width: 410px) {
+@media screen and (min-width: 320px) and (max-width: 420px) {
   .modal-window__checkbox-icon {
     width: 13px;
     height: 13px;
@@ -1891,9 +1899,33 @@ body.modal-open {
   color: #757575;
 }
 
-@media screen and (min-width: 320px) and (max-width: 410px) {
+@media screen and (min-width: 320px) {
   .modal-window__contract-text {
     font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .modal-window__contract-text {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 377px) {
+  .modal-window__contract-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 405px) {
+  .modal-window__contract-text {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 477px) {
+  .modal-window__contract-text {
+    font-size: 12px;
   }
 }
 
