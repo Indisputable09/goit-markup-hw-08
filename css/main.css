@@ -920,6 +920,13 @@ button {
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .clients__title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -931,8 +938,6 @@ button {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
     margin-top: 0;
     margin-bottom: 50px;
   }

@@ -5,6 +5,11 @@
     margin-top: 0;
     margin-bottom: 0;
     background-color: #ffffff;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .clients__title {
@@ -17,9 +22,6 @@
         font-size: 36px;
         line-height: 1.2;
         text-align: center;
-
-        padding-top: 94px;
-        padding-bottom: 94px;
 
         margin-top: 0;
         margin-bottom: 50px;
