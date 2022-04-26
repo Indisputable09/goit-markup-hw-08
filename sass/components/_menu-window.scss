@@ -79,7 +79,6 @@ body.menu-open {
     &.is-open {
         top: -100%;
         transition: top 1000ms ease;
-        animation: bounce-top 0.9s both 2000ms;
     }
 }
 

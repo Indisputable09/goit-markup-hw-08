@@ -2084,8 +2084,6 @@ body.menu-open {
   top: -100%;
   -webkit-transition: top 1000ms ease;
   transition: top 1000ms ease;
-  -webkit-animation: bounce-top 0.9s both 2000ms;
-          animation: bounce-top 0.9s both 2000ms;
 }
 
 .contacts-networks__block {
