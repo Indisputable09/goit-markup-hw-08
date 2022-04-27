@@ -109,6 +109,17 @@
       color: $hover-color;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width:1199px) {
+  .contacts__link-mail {
+    padding-top: 19px;
+  }
+
+  .contacts__link-phone {
+    padding-bottom: 19px;
+  }
+}
+
 .contacts__icon {
   display: inline-flex;
   margin-right: 10px;
