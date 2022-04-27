@@ -1521,7 +1521,6 @@ button {
   height: 168px;
   margin: 0;
   color: #ffffff;
-  overflow-y: scroll;
   -webkit-transition: -webkit-transform 250ms;
   transition: -webkit-transform 250ms;
   transition: transform 250ms;
