@@ -2089,26 +2089,26 @@ body.menu-open {
 
 .menu__icon-close {
   opacity: 0;
-  -webkit-transition: opacity 250ms linear 400ms;
-  transition: opacity 250ms linear 400ms;
+  -webkit-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
 }
 
 .menu__button.is-open .menu__icon-close {
   opacity: 1;
-  -webkit-transition: opacity 1000ms linear 250ms;
-  transition: opacity 1000ms linear 250ms;
+  -webkit-transition: opacity 500ms linear;
+  transition: opacity 500ms linear;
 }
 
 .menu__icon-burger {
   opacity: 1;
-  -webkit-transition: opacity 1000ms linear 250ms;
-  transition: opacity 1000ms linear 250ms;
+  -webkit-transition: opacity 500ms linear;
+  transition: opacity 500ms linear;
 }
 
 .menu__button.is-open .menu__icon-burger {
   opacity: 0;
-  -webkit-transition: 250ms opacity linear 400ms;
-  transition: 250ms opacity linear 400ms;
+  -webkit-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
 }
 
 .menu__itself {
@@ -2122,8 +2122,8 @@ body.menu-open {
   padding-left: 40px;
   padding-right: 15px;
   position: fixed;
-  left: 0;
   top: 0;
+  right: 0;
   width: 100vw;
   height: 100vh;
   background-color: #ffffff;
@@ -2131,14 +2131,14 @@ body.menu-open {
   overflow-y: scroll;
   padding-top: 48px;
   padding-bottom: 48px;
-  -webkit-transition: top 1000ms ease;
-  transition: top 1000ms ease;
+  -webkit-transition: right 500ms ease;
+  transition: right 500ms ease;
 }
 
 .menu__itself.is-open {
-  top: -100%;
-  -webkit-transition: top 1000ms ease;
-  transition: top 1000ms ease;
+  right: -100%;
+  -webkit-transition: right 500ms ease;
+  transition: right 500ms ease;
 }
 
 .menu-list__item:not(:last-child) {
